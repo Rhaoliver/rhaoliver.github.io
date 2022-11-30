@@ -84,6 +84,7 @@ body {
 
 .contact-info ul li {
     padding: 50%;
+    text-decoration: none;
 }
 
 .contact-info ul li,
