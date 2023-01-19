@@ -7,7 +7,8 @@
 body {
     margin-left: 8%;
     margin-right: 8%;
-    background-color: rgb(232, 219, 243);
+    /*background-color: rgb(232, 219, 243);*/
+    background-image: linear-gradient(rgb(232, 219, 243), rgb(241, 185, 252), rgb(136, 67, 136));
 }
 .container {
     display: grid;
@@ -152,8 +153,11 @@ p.gray {/*parágrafo*/
     color: rgb(136, 67, 136);
 }
 
+#interests .textCenter h3 {
+    color: rgb(128, 10, 128);
+}
 /* section skills/interests fim */
-/* section contacts inicio */
+/* section contacts inicio *//*
 #contactImg {
     width: 100%;
 }
@@ -189,7 +193,7 @@ p.gray {/*parágrafo*/
     border: 0;
     color: #FFFFFF;
     
-}
+}*/
 /* section contacts fim */
 /* section projects inicio */
 #projects h2 {
@@ -222,7 +226,6 @@ footer {
     padding: 10px 40px;
     border-radius: 10px;
     font-family: "Poppins", sans-serif;
-    font-weight: lighter;
     text-decoration: none;
     text-align: center;
     justify-content: space-between;
