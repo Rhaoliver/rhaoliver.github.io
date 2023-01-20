@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 8%;
+    margin-right: 8%;
+    /*background-color: rgb(232, 219, 243);*/
+    background-image: linear-gradient(rgb(232, 219, 243), rgb(241, 185, 252), rgb(136, 67, 136));
+}
+.container {
+    display: grid;
+    grid-auto-flow: column; /*cada div contida no container será coluna*/
+    grid-auto-columns: 1fr; /*cada coluna será dimensionada para ser um frame*/
+}
+
+/* header inicio*/
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 185, 252);
+    color:#0f3868;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: #0f3868;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: rgb(252, 251, 251);
+}
+/* header fim*/
+/* section aboutMe inicio*/
+#aboutMe {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 16px;
+}
+
+#aboutMe h2 {
+    margin-top: 70px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    color: purple;
+    text-align: center;
+}
+
+#aboutMe p {
+    text-align: justify;
+    margin-bottom: 32px;
+}
+
+/*
+#buttonCta {
+    background:rgb(136, 67, 136);
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:#FFFFFF;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+}
+
+#aboutMe .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+*/
+
+p.gray {/*parágrafo*/
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+#headerCta h1 {/*título*/
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+#headerImg {/* imagem*/
+    margin-left: 30%;
+    margin-top: 70px;
+}
+#headerImg img {
+    width: 80%;
+    border-radius: 50%;
+    border-style: double;
+    border-color: blueviolet;
+}
+/* section aboutMe fim*/
+/* section skills/interests inicio */
+#skills,
+#interests {
+    margin-bottom: 50px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#skills h2,
+#interests h2 {
+    color: purple;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 24px;
+    margin-top: 50px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+#skills .textCenter h3,
+#interests .textCenter h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(136, 67, 136);
+}
+
+#interests .textCenter h3 {
+    color: rgb(128, 10, 128);
+}
+/* section skills/interests fim */
+/* section contacts inicio *//*
+#contactImg {
+    width: 100%;
+}
+#contactForm {
+    margin-left: 85px;
+}
+#contact {
+    margin-top: 100px;
+}
+#contactForm input {
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+}
+#contactForm button {
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: 0;
+    color: #FFFFFF;
+    
+}*/
+/* section contacts fim */
+/* section projects inicio */
+#projects h2 {
+    color: purple;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#projects {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.portfolioImg img {
+    width: 100%;
+    border-radius: 10px;
+}
+.portfolioImg {
+    padding: 20px;
+}
+/* section projects fim */
+/* footer inicio*/
+footer {
+    background-color: rgb(241, 185, 252);
+    color:#0f3868;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+footer p {
+    font-size: 16px;
+}
+/* footer fim*/
+
+
+footer {
+    box-
+}
