@@ -1,8 +1,7 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
+@import url(reset.css);
+@import url(mediaqueries.css);
+
 
 html {
     scroll-behavior: smooth;
@@ -112,11 +111,11 @@ p.gray {/*parágrafo*/
     color: #000000;
 }
 #headerImg {/* imagem*/
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 70px;
 }
 #headerImg img {
-    width: 80%;
+    width: 60%;
     border-radius: 50%;
     border-style: double;
     border-color: blueviolet;
